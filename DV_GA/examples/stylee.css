@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  background-color: #fff;
+  display: flex;
+  
+}
+.form-left {
+  flex: 0 0 auto;
+  text-align: left;
+  width: 20%;
+  height: 20%;
+  padding-right: 20px;
+}
+
+.form-right {
+  flex: 1;
+  overflow-y: auto
+}
+
+sectionn {
+  height: 100vh;
+  padding: 0 clamp(4rem, 12vw, 20rem);
+  display: grid;
+  place-content: center;
+}
+sectionn pp {
+  font-size: clamp(2rem, 5vw, 8rem);
+}
+section:nth-of-type(1) {
+  border-bottom: 1px solid black;
+}
+section:nth-of-type(3) {
+  background: #ffff00;
+}
+section:nth-of-type(4) {
+  background: #1d1d1d;
+  color: white;
+}
